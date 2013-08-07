@@ -41,7 +41,6 @@ Observable.prototype.set = function(key, value, options) {
 
 // take the key, value, options values and set them on 'this.attributes' object
 // if silent is set to true .set('foo', 'bar', { silent: true }), don't emit an event.
-
 Observable.prototype._set = function(key, val, options) {
   options = options || {};
   var silent = options.silent || false;
