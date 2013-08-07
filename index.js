@@ -59,7 +59,7 @@ Observable.prototype.get = function(key) {
   return this.attributes[key];
 };
 
-// call this.attributes in a callback() in a speific context
+// call this.attributes in a callback() in a specific context
 Observable.prototype.each = function(callback, context) {
   _(this.attributes).each(callback, context);
 };
