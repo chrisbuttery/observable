@@ -17,7 +17,7 @@ function mixin(obj) {
 // Set method
 // 1. if there isnt an options obj create an empty one
 // 2. check if the key is an object
-//    this.model.set({
+//    .set({
 //      name: "bruce",
 //      age: "24"
 //    )};
